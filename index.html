@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ordenador Serie</title>
+	<meta name="author" content="@josecarlospsh"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,400i,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<main>
+		<div class="ec-intro">
+			<h1 class="ec-title">Ordenador de Serie</h1>
+			<p class="ec-text">Este pequeño proyecto permite ingresar numeros enteros y ordenarlos de menor a mayor.</p>
+		</div>
+		<div class="ec-frm">
+			<input type="text" id="inputNum" class="ec-in" placeholder="Ingresa numeros enteros">
+			<button id="addBtn" class="ec-btn" >Agregar</button>
+			<div id="errorMsg" class="ec-msg"></div>
+		</div>
+		<div class="ec-result">
+			<h3>Lista de Números</h3>
+			<div id="contentNums" class="ec-nums"></div>
+			<h3>Lista de Números ordenados</h3>
+			<div id="contentNumsinOrder" class="ec-inorder">
+				<div id="dd">
+					
+				</div>
+			</div>
+		</div>
+		<div class="by"><small>HTML + CSS + JS</small><br><strong>JCPSH</strong></div>
+	</main>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+</html>
